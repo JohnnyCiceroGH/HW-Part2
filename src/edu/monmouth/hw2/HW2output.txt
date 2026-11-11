@@ -1,0 +1,113 @@
+Invalid vehicle line 3: incorrect number of fields: 
+Invalid vehicle on line 4: b,,
+No enum constant edu.monmouth.vehicle.PowerTypes.
+Invalid vehicle type on line 5: d
+Invalid vehicle line 10: incorrect number of fields: b,FUELOIL,300 c,GASOLINE,9
+Invalid vehicle on line 11: c,GASOLINE,-98
+Invalid engine size: -98. Engine size must be between 1 and 199.
+Invalid vehicle on line 12: c,GASOLINE,20o
+For input string: "20o"
+Invalid vehicle line 13: incorrect number of fields: c,GASOLINE
+Invalid vehicle on line 14: b,FUELOIL,81902
+Invalid boat length: 81902. Boat length must be between 1 and 1300.
+
+---Strings list---
+Is empty: false
+
+Original strings:
+Monmouth University
+Boardwalk
+West Long Branch
+Great Hall
+1933
+Seven Presidents
+New Jersey
+
+Removed string: Monmouth University
+
+Strings after remove:
+Boardwalk
+West Long Branch
+Great Hall
+1933
+Seven Presidents
+New Jersey
+
+Strings after add:
+Boardwalk
+West Long Branch
+Great Hall
+1933
+Seven Presidents
+New Jersey
+Added String
+
+---Strings iterator---
+Boardwalk
+West Long Branch
+Great Hall
+1933
+Seven Presidents
+New Jersey
+Added String
+
+---Vehicle list---
+Is empty: false
+
+Original vehicles:
+Car [powerSource=GASOLINE, engineSize=4]
+Boat [powerSource=GASOLINE, boatLength=100]
+Car [powerSource=FUELOIL, engineSize=6]
+Boat [powerSource=FUELOIL, boatLength=25]
+Car [powerSource=DEISEL, engineSize=6]
+Boat [powerSource=ELECTRICITY, boatLength=300]
+Car [powerSource=ELECTRICITY, engineSize=10]
+Car [powerSource=FUELOIL, engineSize=9]
+Boat [powerSource=ELECTRICITY, boatLength=42]
+Car [powerSource=GASOLINE, engineSize=4]
+
+Removed vehicle: Car [powerSource=GASOLINE, engineSize=4]
+
+Vehicles after remove:
+Boat [powerSource=GASOLINE, boatLength=100]
+Car [powerSource=FUELOIL, engineSize=6]
+Boat [powerSource=FUELOIL, boatLength=25]
+Car [powerSource=DEISEL, engineSize=6]
+Boat [powerSource=ELECTRICITY, boatLength=300]
+Car [powerSource=ELECTRICITY, engineSize=10]
+Car [powerSource=FUELOIL, engineSize=9]
+Boat [powerSource=ELECTRICITY, boatLength=42]
+Car [powerSource=GASOLINE, engineSize=4]
+
+Added vehicle: Car [powerSource=GASOLINE, engineSize=10]
+
+Vehicles after add:
+Boat [powerSource=GASOLINE, boatLength=100]
+Car [powerSource=FUELOIL, engineSize=6]
+Boat [powerSource=FUELOIL, boatLength=25]
+Car [powerSource=DEISEL, engineSize=6]
+Boat [powerSource=ELECTRICITY, boatLength=300]
+Car [powerSource=ELECTRICITY, engineSize=10]
+Car [powerSource=FUELOIL, engineSize=9]
+Boat [powerSource=ELECTRICITY, boatLength=42]
+Car [powerSource=GASOLINE, engineSize=4]
+Car [powerSource=GASOLINE, engineSize=10]
+
+---Vehicle iterator
+Boat [powerSource=GASOLINE, boatLength=100]
+Car [powerSource=FUELOIL, engineSize=6]
+Boat [powerSource=FUELOIL, boatLength=25]
+Car [powerSource=DEISEL, engineSize=6]
+Boat [powerSource=ELECTRICITY, boatLength=300]
+Car [powerSource=ELECTRICITY, engineSize=10]
+Car [powerSource=FUELOIL, engineSize=9]
+Boat [powerSource=ELECTRICITY, boatLength=42]
+Car [powerSource=GASOLINE, engineSize=4]
+Car [powerSource=GASOLINE, engineSize=10]
+
+---Contains test---
+Contains existing vehicle: true
+Contains vehicle not in list: false
+Test vehicle: Car [powerSource=ELECTRICITY, engineSize=1]
+
+Assignment 2 completed.
